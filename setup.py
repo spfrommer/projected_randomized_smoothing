@@ -1,0 +1,29 @@
+from setuptools import setup, find_namespace_packages
+
+setup(
+    name='randsmooth',
+    packages=find_namespace_packages(include=['randsmooth.*']),
+    version='0.1',
+    install_requires=[
+        'torch==1.13.1',
+        'pytorch-lightning-bolts==0.3.2.post1',
+        'pytorch-lightning==1.2.4',
+        'torchattacks',
+        'numpy',
+        'scipy',
+        'statsmodels',
+        'matplotlib',
+        'click',
+        'colorama',
+        'sklearn',
+        'cvxpy',
+        'mosek',
+        'wandb',
+        'gym',
+        'ancer-python',
+        'tensorboard',
+        'torchnet',
+        'statsmodels',
+        'dfply',
+        'scikit-learn',
+    ])

@@ -1,0 +1,7 @@
+data/
+run.txt
+
+pretrain*/
+svhn_trained/
+None/
+ckpts/
